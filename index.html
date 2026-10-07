@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Casting the Runes: propuesta de Escape Room inspirada en M. R. James.">
+  <title>Casting the Runes · Escape Room Concept</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#inicio">CTR</a>
+  <nav aria-label="Navegación principal">
+    <a href="#concepto">Concepto</a>
+    <a href="#recorrido">Recorrido</a>
+    <a href="#pruebas">Pruebas</a>
+    <a href="#plano">Plano</a>
+    <a href="#ambientacion">Ambientación</a>
+    <a href="#finales">Final</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <video class="hero-video" autoplay muted loop playsinline poster="assets/img/hero-poster.jpg">
+      <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="eyebrow">Propuesta de Escape Room</div>
+      <h1>Casting<br>the Runes</h1>
+      <p>Una investigación sobrenatural inspirada en M. R. James. Cuatro salas, sesenta minutos y un documento que debe volver a las manos de quien lo envió.</p>
+      <a class="button" href="#concepto">Explorar propuesta</a>
+    </div>
+  </section>
+
+  <section class="section-dark" id="concepto">
+    <div class="section section-inner">
+      <div class="section-heading">
+        <div class="eyebrow">01 · Concepto</div>
+        <h2>La historia se descubre jugando</h2>
+      </div>
+      <div class="concept-grid">
+        <div>
+          <blockquote class="mission">«Descubrid qué está ocurriendo, averiguad cómo romper la maldición y devolved el documento a Karswell antes de la salida del tren».</blockquote>
+          <p class="body-copy">Los jugadores colaboran con Dunning después de que este encuentre entre sus documentos un extraño papel con caracteres semejantes a runas. Karswell abandonará Londres en el último tren dentro de 60 minutos.</p>
+          <p class="body-copy">La experiencia está diseñada para que nadie necesite conocer previamente el cuento: cada prueba revela una parte nueva del conflicto y prepara la siguiente.</p>
+        </div>
+        <div class="metrics">
+          <div class="metric"><strong>180 m²</strong><span>Superficie total</span></div>
+          <div class="metric"><strong>60 min</strong><span>Duración</span></div>
+          <div class="metric"><strong>4–6</strong><span>Jugadores</span></div>
+          <div class="metric"><strong>4</strong><span>Salas</span></div>
+          <div class="metric"><strong>7</strong><span>Pruebas</span></div>
+          <div class="metric"><strong>1</strong><span>Reloj general</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="recorrido">
+    <div class="section-heading">
+      <div class="eyebrow">02 · Recorrido</div>
+      <h2>Cuatro espacios, una sola investigación</h2>
+      <p class="section-intro">El recorrido entre salas es lineal, pero en las salas 2 y 3 el grupo puede dividirse para resolver dos pruebas en paralelo.</p>
+    </div>
+    <div class="room-tabs" role="tablist" aria-label="Salas del recorrido">
+      <button class="room-tab is-active" data-room="1">01</button>
+      <button class="room-tab" data-room="2">02</button>
+      <button class="room-tab" data-room="3">03</button>
+      <button class="room-tab" data-room="4">04</button>
+    </div>
+    <div class="rooms">
+      <article class="room is-active" data-card="1">
+        <div class="num">01</div><h3>Despacho de Dunning</h3><div class="role">Origen del conflicto</div>
+        <p>Expedientes académicos, luz ultravioleta y descubrimiento del papel rúnico.</p>
+      </article>
+      <article class="room" data-card="2">
+        <div class="num">02</div><h3>Cámara Harrington</h3><div class="role">El antecedente</div>
+        <p>El grupo reconstruye el caso de John Harrington y descubre que la amenaza ya ha ocurrido antes.</p>
+      </article>
+      <article class="room" data-card="3">
+        <div class="num">03</div><h3>Gabinete de Karswell</h3><div class="role">Plazo y regla</div>
+        <p>El calendario concreta el último día y el papel revela la forma de romper la maldición.</p>
+      </article>
+      <article class="room" data-card="4">
+        <div class="num">04</div><h3>Vagón de tren</h3><div class="role">Aplicación y clímax</div>
+        <p>Billete, equipaje y portabilletes conducen a la devolución final del documento.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-dark" id="pruebas">
+    <div class="section section-inner">
+      <div class="section-heading">
+        <div class="eyebrow">03 · Pruebas</div>
+        <h2>Siete pruebas que hacen avanzar la historia</h2>
+      </div>
+      <div class="puzzle-grid">
+        <article class="puzzle"><div class="eyebrow">P1</div><h3>El expediente rechazado</h3><p>Los jugadores identifican el expediente de <em>The Truth of Alchemy</em> y descubren el origen del conflicto.</p><button data-title="P1 · El expediente rechazado" data-text="Localizar el expediente correcto permite acceder a la linterna UV y al pliego aparentemente en blanco.">Ver detalle</button></article>
+        <article class="puzzle"><div class="eyebrow">P2</div><h3>Tinta invisible</h3><p>La luz UV revela símbolos ocultos y la fecha en que Dunning recibió el papel.</p><button data-title="P2 · Tinta invisible" data-text="Los símbolos numerados conducen al panel que abre el acceso a la Sala 2.">Ver detalle</button></article>
+        <article class="puzzle"><div class="eyebrow">P3</div><h3>El caso Harrington</h3><p>Documentos fechados permiten reconstruir cronológicamente los últimos meses de John Harrington.</p><button data-title="P3 · El caso Harrington" data-text="Al ordenar los documentos, el grupo identifica a John Harrington y libera uno de los cierres.">Ver detalle</button></article>
+        <article class="puzzle"><div class="eyebrow">P4</div><h3>El papel quemado</h3><p>Fragmentos parcialmente quemados revelan que destruir el documento no detiene la amenaza.</p><button data-title="P4 · El papel quemado" data-text="La reconstrucción del documento muestra el plazo de tres meses y libera el segundo cierre hacia la Sala 3.">Ver detalle</button></article>
+        <article class="puzzle"><div class="eyebrow">P5</div><h3>El último día</h3><p>El calendario permite trasladar el plazo de Harrington al caso de Dunning y descubrir la fecha límite.</p><button data-title="P5 · El último día" data-text="La fecha correcta abre la caja con la agenda y el billete de Karswell.">Ver detalle</button></article>
+        <article class="puzzle"><div class="eyebrow">P6</div><h3>La regla de la maldición</h3><p>El papel rúnico se superpone con una página del libro de Karswell y revela la regla de devolución.</p><button data-title="P6 · La regla de la maldición" data-text="El documento debe volver a Karswell sin que este advierta la maniobra.">Ver detalle</button></article>
+        <article class="puzzle"><div class="eyebrow">P7</div><h3>El portabilletes</h3><p>El grupo localiza a Karswell en el vagón y aplica todo lo descubierto para devolverle el papel.</p><button data-title="P7 · El portabilletes" data-text="La colocación correcta del papel activa el desenlace de luz, sonido y movimiento.">Ver detalle</button></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="plano">
+    <div class="section-heading">
+      <div class="eyebrow">04 · Plano</div>
+      <h2>Distribución del prototipo</h2>
+      <p class="section-intro">Sustituye la imagen de ejemplo por tu plano definitivo con las ubicaciones P1–P7.</p>
+    </div>
+    <figure class="plan-figure">
+      <img src="assets/img/plano.jpg" alt="Plano cenital del Escape Room Casting the Runes">
+      <figcaption>Recorrido lineal entre salas con pruebas paralelas en las fases intermedias.</figcaption>
+    </figure>
+  </section>
+
+  <section class="section-dark" id="ambientacion">
+    <div class="section section-inner">
+      <div class="section-heading">
+        <div class="eyebrow">05 · Ambientación</div>
+        <h2>La tensión crece con el recorrido</h2>
+      </div>
+      <div class="mechanics">
+        <article class="mechanic"><h3>Iluminación</h3><p>De un despacho cálido y reconocible a espacios más fríos, contrastados y oscuros.</p></article>
+        <article class="mechanic"><h3>Sonido</h3><p>Silencio, golpes lejanos, avisos de estación y finalmente ruedas, vapor y silbato.</p></article>
+        <article class="mechanic"><h3>Tecnología</h3><p>UV, sensores, imanes y mecanismos ocultos integrados en la escenografía.</p></article>
+        <article class="mechanic"><h3>Game Master</h3><p>Supervisa desde control y ofrece pistas progresivas sin romper la inmersión.</p></article>
+        <article class="mechanic"><h3>Trabajo en equipo</h3><p>Las pruebas paralelas de las salas 2 y 3 permiten repartir al grupo.</p></article>
+        <article class="mechanic"><h3>Tiempo</h3><p>Un único reloj general de 60 minutos acompaña toda la experiencia.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="finales">
+    <div class="section-heading">
+      <div class="eyebrow">06 · Resolución</div>
+      <h2>Dos finales posibles</h2>
+    </div>
+    <div class="ending-grid">
+      <article class="ending success"><h3>Resolución</h3><p>El papel vuelve al portabilletes de Karswell. El reloj se detiene, suena la locomotora, el vagón vibra y la salida se desbloquea.</p></article>
+      <article class="ending fail"><h3>No resolución</h3><p>El tiempo llega a cero. Las luces descienden y una voz anuncia: «Ha llegado vuestra hora».</p></article>
+    </div>
+  </section>
+
+  <section class="climax">
+    <p>El objetivo no es que el jugador recuerde el cuento. El objetivo es que lo reconstruya, lo comprenda y termine formando parte de él.</p>
+  </section>
+</main>
+
+<footer>Concepto de Escape Room · Storytelling · J. David Montilla Merino</footer>
+
+<dialog id="detail">
+  <button class="close" aria-label="Cerrar">×</button>
+  <div class="eyebrow">Detalle de prueba</div>
+  <h2 id="dialog-title"></h2>
+  <p id="dialog-text"></p>
+</dialog>
+
+<script src="assets/js/navigation.js" defer></script>
+<script src="assets/js/rooms.js" defer></script>
+<script src="assets/js/puzzles.js" defer></script>
+<script src="assets/js/video.js" defer></script>
+</body>
+</html>
