@@ -22,3 +22,31 @@ dialog{width:min(620px,calc(100% - 32px));border:1px solid #ffffff24;background:
 @media(max-width:900px){.concept-grid{grid-template-columns:1fr}.rooms{grid-template-columns:1fr 1fr}.puzzle-grid,.mechanics{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.site-header{position:absolute;align-items:flex-start}nav{display:none}.rooms,.puzzle-grid,.mechanics,.ending-grid{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.hero{padding-top:150px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-video{display:none}}
+.sound-toggle {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 50;
+
+  padding: 11px 15px;
+
+  border: 1px solid rgba(164, 45, 52, 0.7);
+  background: rgba(9, 11, 14, 0.82);
+  color: #e8e2d6;
+
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.sound-toggle:hover {
+  background: rgba(164, 45, 52, 0.2);
+  border-color: #a42d34;
+}
